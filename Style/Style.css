@@ -1,0 +1,162 @@
+.FormatHeader{
+    color:white;
+    padding: 3px;
+    margin-right: 20px;
+}
+
+header{
+    width: auto;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(2, 2, 2);
+    min-width: 1340px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#PosHeader{
+    position: relative;    
+    top: 20px;    
+}
+
+#FormatNombre{
+    float: left;
+    margin-right: 620px;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#principal{
+    background-image: url("../Images/Fondo1Bloque.jpg");
+    background-size: cover;
+    min-height: 585px;
+    border-radius: 56px 56px 56px 56px;
+    margin-top: 20px;
+}
+
+#FondoPrimerBloque
+{
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px none #000000;
+    background-image: url("../Images/Ultima.png");
+    width: 230px;
+    height: 230px;
+    background-size: cover;
+    background-color: orange;
+    float: right;
+    margin-right: 50px;
+    margin-top: 170px;
+}
+
+.Fondo{
+    border-radius: 56px 56px 56px 56px;
+    -moz-border-radius: 56px 56px 56px 56px;
+    -webkit-border-radius: 56px 56px 56px 56px;
+    border: 14px double #ffac05;
+    min-height: 585px;
+    margin-top: 20px;
+    background-color: #000000;
+}
+
+.FormatParrafo{
+    margin: 50px;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.FormatTitulo{
+    margin: 50px;
+    color: white;
+    padding: 10px;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#FormatDescarga{
+    float: right;
+    margin-top: 420px;
+    margin-right: -170px;
+    color: rgb(255, 255, 255);
+}
+
+.ImgConocimientos {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 60px;
+    height: 10%;
+    width: 10%;
+}
+
+
+.Iconos {
+    text-align: center;
+    display: block;
+    margin: auto;
+    
+}
+
+#ExpTxt {
+    margin-top: 1em;
+    margin-left: 3.2em;
+}
+
+.Detalle {
+    color: white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Redes {
+    color: rgb(146, 146, 146);
+    text-align: center;
+}
+
+.ImgFooter {
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+    height: 5%;
+    width: 5%;
+}
+
+#Form{
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.labelText{
+    font-size: 30px;
+    color: yellow;
+    margin-right: 800px;
+}
+
+.inputText{
+    margin-bottom: 10px;     
+    font-size: 20pt;     
+    padding: 15px 10px 10px;    
+    background-color: #efefef;    
+    color: #787575;    
+    border-radius: 5px;     
+    width: 70%;    
+    outline: none;    
+    resize: none;
+}
+
+.enviar{
+    height: 10%;
+    width: 10%;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head meta name="viewport" content="width=device-width, initial-scale=1.0" &amp;gt;>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style/Style.css">
+    <script type="text/javascript" src="Js/Js.js"></script>
+    <title>Portfolio Agustin Diaz</title>
+</head>
+
+<body>
+    <header>
+        <div id="PosHeader">
+            <a id="FormatNombre" class="FormatHeader" href="#">Agustin Ezequiel Diaz</a>
+            <a class="FormatHeader" href="#principal" id="inicio">Inicio </a>
+            <a class="FormatHeader" href="#SobreMi" id="sobremi">Sobre mi</a>
+            <a class="FormatHeader" href="#conocimiento" id="conocimientos">Conocimientos</a>
+            <a class="FormatHeader" href="#experiencia" id="experiencias">Experiencias</a>
+            <a class="FormatHeader" href="#Redes" id="contacto">Contacto</a>
+        </div>
+    </header>
+    <section id="principal">
+        <div id="FondoPrimerBloque">
+        </div>
+        <a id="FormatDescarga" href="https://drive.google.com/uc?id=11J756YmVlKeudcFf4KUAfvm-MX17gYS6&export=download"
+            download="curriculum.pdf">Descargar CV</a>
+    </section>
+
+    <section id="SobreMi" class="Fondo">
+        <h1 class="FormatTitulo">Sobre mi</h1>
+        <p class="FormatParrafo">Busco comenzar a interiorizarme de forma laboral en la programación y en el ambito de
+            sistemas, para obtener experiencia y conocimiento en este nuevo espacio donde me encuentro actualmente.</p>
+    </section>
+
+    <section id="conocimiento" class="Fondo">
+        <div class="Iconos">
+            <h1 class="FormatTitulo">Conocimientos</h1><br>
+            <img class="ImgConocimientos" src="Images/C++.svg" alt="C++">
+            <img class="ImgConocimientos" src="Images/C-Sharp.svg" alt="C#">
+            <img class="ImgConocimientos" src="Images/Sql.svg" alt="SQL">
+            <img class="ImgConocimientos" src="Images/html-5.svg" alt="Html">
+            <img class="ImgConocimientos" src="Images/css-5.svg" alt="Css">
+            <img class="ImgConocimientos" src="Images/javascript-1.svg" alt="JavaScript">
+        </div>
+    </section>
+
+    <section id="experiencia" class="Fondo">
+        <h1 class="FormatTitulo">Experiencia</h1>
+        <div id="ExpTxt">
+            <h2 class="Detalle"><b>Empresa:</b> ASE (asesoramiento en seguridad electronica)</h2>
+            <h2 class="Detalle"><b>Puesto:</b> Tecnico electronico</h2>
+            <h2 class="Detalle"><b>Descripción: </b>Tecnico de calle, encargado de un vehiculo el cual utilizamos para
+                trasladarnos a las sucursales de bancos e instalamos
+                sistemas de seguridad y tambien realizamos service y mantenimientos de las mismas. </h2>
+        </div>
+    </section>
+
+    <section id="formulario" class="Fondo">
+        <h1 class="FormatTitulo">Formulario</h1>
+        <form id="Form">
+            <div>
+                <label id="labelNombre" class="labelText" for="inputNombre">Nombre:</label>
+                <br>
+                <input id="inputNombre" class="inputText" type="text">
+            </div>
+            <div>
+                <label id="labelEmail" class="labelText" for="inputEmail">Correo:</label>
+                <br>
+                <input id="inputEmail" class="inputText" type="text">
+            </div>
+            <div>
+                <label id="labelMensaje" class="labelText" for="areaMensaje">Mensaje:</label>
+                <br>
+                <textarea id="areaMensaje" class="inputText" ></textarea>
+            </div>
+            <div>
+                <button id="BotonEnviar" onclick="enviar()" class="enviar">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <h1 id="Redes">Follow Me</h1>
+        <section class="Iconos">
+            <a href="https://github.com/AgustinEzequielDiaz"> <img class="ImgFooter" src="Images/github.svg"
+                    alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/agustin-ezequiel-diaz-3b4290180/"> <img class="ImgFooter"
+                    src="Images/Linkedin.svg" alt="Linkedin"></a>
+        </section>
+    </footer>
+</body>
+
+</html>
